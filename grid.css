@@ -8,17 +8,41 @@
     width: 38vw;
     background-image: linear-gradient(orange,white,green);
     position: absolute;
-    left:120px;
     top: 20px;
+    left:120px;
     border: 1px solid black;
     border-radius: 5px;
+    animation-name: name;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes name {
+    0%{
+        position: absolute;
+        top: 20px;
+        left: 120px;
+    }
+    50%{
+        position: absolute;
+        top: 20px;
+        left: 115px;
+        width: 37vw;
+    }
+    100%{
+        position: absolute;
+        top: 20px;
+        left: 120px;
+    }
+    
 }
 .ashoka{
     height: 24vh;
     width: 12vw;
     border-radius: 50%;
     border: 3px solid blue;
-    background-image: linear-gradient(orange,white,green);
+    background-image: linear-gradient(white);
     position: absolute;
     top: 45px;
     left :180px
@@ -127,7 +151,7 @@
 }
 .stand{
     height: 520px;
-    width: 10px;
+    width: 15px;
     background-color: rgb(62, 56, 56);
     position: absolute;
     top: 20px;
@@ -136,7 +160,7 @@
 .step1{
     height: 30px;
     width: 90px;
-    background-color: rgb(240, 157, 1);
+    background-color: rgb(232, 152, 15);
     border-radius: 15px;
     position: absolute;
     top: 530px;
@@ -147,7 +171,7 @@
 .step2{
     height: 30px;
     width: 120px;
-    background-color: rgb(246, 244, 241);
+    background-color: rgb(248, 246, 246);
     border-radius: 15px;
     position: absolute;
     top: 560px;
@@ -158,7 +182,7 @@
 .step3{
     height: 30px;
     width: 150px;
-    background-color: rgb(1, 189, 36);
+    background-color: rgb(14, 174, 14);
     border-radius: 15px;
     position: absolute;
     top: 590px;
@@ -173,6 +197,6 @@
     background-color: rgb(54, 52, 52);
     border-radius: 50%;
     position: absolute;
-    top: 10px;
-    left: 107px;
+    top: 9px;
+    left: 110px;
 }
